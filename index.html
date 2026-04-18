@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script src="https://kit.fontawesome.com/1d36c0aa30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-film"></i>
+                <span class="logo-accent">RENTFLIX</span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#series">Series</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search for movies or series">
+        <i class="fas fa-search search-icon"></i>
+    </div>
+    <main>
+        <section class="featured-section" id="home">
+            <div class="featured-movie">
+                <img src="images/he-man2026.jpg" alt="he-man movie poster" class="featured-backdrop">
+                <div class="featured-overlay">
+                    <h1 class="featured-title">The Latest Upcoming Movie featured
+                        May 2026 </h1>
+                    <p class="featured-description"> <strong>Masters Of The Universe</strong> <strong> Coming May
+                            2026</strong>
+                        Lorem
+                        ipsum dolor sit amet
+                        consectetur adipisicing elit. Voluptas,
+                        quidem
+                        officiis qui architecto ratione dolorum! Cupiditate sunt expedita facilis illo? Nisi pariatur
+                        rerum
+                        suscipit id</p>
+                    <div class="featured-actions">
+                        <a href="https://youtu.be/4Bp4LR1KB1c?si=hRyuCP99juUj0OJQ" target="_blank"
+                            class="btn btn-primary"><i class="fas fa-play"></i>Watch Trailer</a>
+                        <a href="#" class="btn btn-secondary"><i class="fas fa-plus" id="addtoWatchlist"></i> Add to
+                            Watchlist</a>
+                        <a href="#" class="btn btn-secondary"><i class="fas fa-info-circle"></i> More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="category-heading">
+                <h2 class="category-title">Popular Movies</h2>
+                <a href="#" class="view-all" id="movies">View All</a>
+            </div>
+            <div class="movie-grid" id="moviesGrid">
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/highlander.jpg" alt="Highlander Remake Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Highlander Remake </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/brand-new day.jpg" alt="Spider-man Brand New Day Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Spider-man Brand New Day </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming July 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/dune part three.jpg" alt="Dune Part Three Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Dune Part Three </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming Dec 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/odyssey.jpg" alt="Odyssey Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Odyssey </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming July 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Avengers_Doomsday_poster.jpg" alt="Avengers Doomsday Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Avengers Doomsday </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming Dec 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/street fighter 6.jpg" alt="Street Fighter 6 Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Street Fighter 6 </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming Oct 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/legend of zelda live action.jpg"
+                            alt="Legend of Zelda Live Action Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Legend of Zelda Live Action </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming Mar 2027</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/voltron live action.jpg" alt="Voltron Live Action Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Voltron Live Action </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming 2027</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/star wars star-fighter.jpg" alt="Star Wars Star Fighter Movie Poster">
+                    </div>
+                    <div class=" movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Star Wars Star Fighter </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming 2027</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="category-heading" id="series">
+                <h2 class="category-title">Upcoming Tv Series </h2>
+                <a href="#" class="view-all" id="viewAllTv">View All</a>
+            </div>
+            <div class="movie-grid" id="tvGrid">
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/lanterns 2026.jpg" alt="Lanterns 2026 Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Lanterns 2026 </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming Aug 2026</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/spider-noir.jpg" alt="Spider-Noir Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Spider-Noir </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming May 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/punisher  one last kill.jpg" alt="Punisher: One Last Kill Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Punisher: One Last Kill </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming May 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/hbo knight of the seven kingdoms season 2.jpg"
+                            alt="HBO Knight of the Seven Kingdoms: Season 2 Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Knight <br>of the Seven Kingdoms </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Season 2 Coming 2027</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/reacher season 4.jpg" alt="Reacher: Season 4 Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Reacher: Season 4 </h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span> Coming 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/secret level season 2.jpg" alt="Secret Level: Season 2 Movie Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Secret Level: Season 2</h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming May 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/warhammer-40k-tv-series-temp-poster.avif"
+                            alt="Warhammer 40K: TV Series Temp Poster">
+                    </div>
+                    <div class="movie-rating">
+                        <i class="fas fa-star"></i>
+                        <span>Not yet Rated</span>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Warhammer 40K: TV Series</h3>
+                        <div class="movie-meta">
+                            <span>Action, Adventure</span>
+                            <span>Coming May 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our movie and TV show website! Here you can find information about your favorite movies and TV
+                shows.</p>
+        </section>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+
+
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Malta</option>
+                        <option value="canada">UK</option>
+                        <option value="usa">Italy</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        </div>
+        <h3>Our Mission</h3>
+        <p>Our mission is to provide a comprehensive and user-friendly platform for movie and TV show
+            enthusiasts
+            to discover, explore, and stay updated on the latest releases, reviews, and industry news.</p>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please feel free to contact us at <a
+                href="mailto:info@moviewebsite.com">info@moviewebsite.com</a>.</p>
+
+        </form>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
